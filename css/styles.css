@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3{
+    color: #333;
+}
+
+p{
+    color: #70747a;
+}
+
+.nav-container{
+    width: 100%;
+    height: 80px;
+    background-color: #F3E6DD;
+    padding: 0 2rem;
+}
+
+nav{
+    position: relative;
+}
+
+.logo{
+    width: 50px;
+    margin-top: 15px;
+}
+
+.navbar-items{
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+}
+
+.navbar-items li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-items a{
+    color: #66453D;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-items a:hover{
+    color: #000000;
+}
+
+.btn a{
+    color: #fdfdfd;
+}
+.btn a:hover{
+    color: #fdfdfd;
+}
+.default-btn{
+    padding: 15px 20px;
+    background-color: #817A50;
+    border-radius: 5px;
+}
+
+.default-btn:hover{
+    background-color: #66453D;
+}
+
+.main-banner{
+    background-image: url(../img/library.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+
+.main-banner h1,
+.main-banner p{
+    color: #fdfdfd;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+}
+
+.main-banner h1{
+    font-size: 54px;
+}
+
+.main-banner p{
+    font-size: 32px;
+}
+
+.services-container{
+    padding: 5rem 0;
+}
+
+.services-container ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services-container li{
+    flex: 1 1 200px;
+    list-style: none; 
+    text-align: center;
+    padding: 20px;
+}
+
+.fas{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-book{
+    color: #E47257;
+}
+
+.fa-ticket-alt{
+    color: #66453D;
+}
+
+.fa-truck{
+    color: #C29E88;
+}
+
+.services-container h3{
+    margin-bottom: 25px;
+}
+
+.services-container p{
+    line-height: 24px;
+}
+
+.pricing-container{
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.pricing-container h2{
+    font-size: 36px;    
+}
+
+.pricing-container p{
+    font-size: 20px;
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.plan{
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+}
+
+.plan ul{
+    padding: 0;
+}
+
+.plan li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #f2f0eb;
+    color: #333;
+}
+
+.plan .price{
+    margin: 0 auto -50px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #817A50;
+    color: #fdfdfd;
+    text-align: center;
+    line-height: 120px;
+    font-size: 18px;
+    position: relative;
+}
+
+.plan .plan-name{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #66453D;
+    padding: 50px 0;
+}
+
+.plan .plan-btn{
+    background-color: #C29E88;
+    color: #333;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.plan .recommended{
+    background-color: #280C08;
+    color: #fdfdfd;
+}
+
+.plan .plan-btn:hover{
+    background-color: #5B6644;
+    color: #fdfdfd;
+}
+
+.searchdomain-container{
+    background-color: #E47257;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.searchdomain-container h2{
+    color: #280C08;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.searchdomain-container p{
+    color: #280C08;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.searchdomain-container input{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.searchdomain-container input[type="text"]{
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.searchdomain-container input[type="submit"]{
+    background-color: #66453D;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fdfdfd;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.searchdomain-container input[type="submit"]:hover {
+    opacity: 1;
+}
+
+.contact-container{
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+}
+.contact-container h2{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.contact-container p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input,
+.contact-container textarea{
+    width: 200px;
+    margin: 0 10px 20px;
+    padding: 10px 20px;
+    font-size: 26px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    margin: 0 10px 20px;
+}
+
+.contact-container textarea{
+    display: block;
+    margin: 0 auto 20px;
+    width: 470px;
+    height: 150px;
+}
+
+.contact-container input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #66453D;
+    color: #fdfdfd;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin: 50px 0 100px;
+    
+}
+
+/* Responsividade */
+
+@media (max-width: 1100px){
+
+    .plans-container{
+        width: 95%;
+    }
+
+    .plan{
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 900px){
+
+    .main-banner p{
+        padding: 0 6rem;
+    }
+    .searchdomain-container{
+        padding: 2rem 4rem;
+    }
+}
+
+@media (max-width: 576px){
+    html, body{
+        overflow-x: hidden;
+    }
+    .navbar-items{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .main-banner p{
+        padding: 0 2rem;
+        font-size: 24px;
+    }
+    .services-container ul{
+        flex-direction: column;
+    }
+    .searchdomain-container h2{
+        font-size: 28px;
+    }
+    .searchdomain-container input[type="text"]{
+        width: 100%;
+    }   
+    .plans-container{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+    .plan{
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    .contact-container{
+        padding: 3rem 2rem;
+    }
+    .contact-container input,
+    .contact-container textarea{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
